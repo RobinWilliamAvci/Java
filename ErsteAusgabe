@@ -1,0 +1,15 @@
+//Code by Robin William Avci robin.avci@outlook.de
+/*
+Erstellen Sie ein Programm, das folgende Ausgabe erzeugt: Java-Programme bestehen aus Klassen.
+Speichern Sie das Programm unter dem Namen ErsteAusgabe.java.
+Kompilieren Sie das Programm aus der Eingabeaufforderung heraus.
+Starten Sie das Programm aus der Eingabeaufforderung.
+Bauen Sie Fehler in das Programm ein. Schreiben Sie z. B. den Klassennamen anders als den Dateinamen, und umgekehrt.
+Kompilieren und starten Sie das Programm erneut. Löschen Sie gegebenenfalls fehlerhafte oder nicht-benötigte *.java- und *.class-Dateien.
+*/
+class ErsteAusgabe{ //the class is the container for the code Name should be the same as the .java file
+    public static void main(String[]args){ //the statement public implements that otehr codes can use this method, the static statement implements that this Method run instantly if you run the whole program, void means that there is no return value, the main implements the main class, in the brackets we initlise a String array.
+        System.out.println("Java-Programme bestehen aus Klassen!"+"!!"); //System.out.* uses a method from System which prints out the Text on the screen from the consol.
+    }
+}
+ 
